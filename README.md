@@ -2,7 +2,7 @@
 MarcianoDiniz/MarcianoDiniz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-'''
+---
 mermaid
 flowchart TD
 
@@ -37,7 +37,7 @@ Sistema --> Dados_Clientes
 Sistema --> Dados_Automoveis
 Sistema --> Dados_Contratos
 Sistema --> Dados_Credito
-'''
+---
 
        
     
