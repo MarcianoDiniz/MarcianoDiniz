@@ -1,6 +1,6 @@
 [diagrama]
 '''mermaid
-Cliente -->|Ações| Cadastro;
+Cliente --> Cadastro;
 Cliente -->|Ações| Pedidos;
 Cliente -->|Ações| Consulta;
 Cliente -->|Ações| Cancelamentos;
