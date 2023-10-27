@@ -1,26 +1,5 @@
-graph TD
-
-subgraph cluster_Usuarios
-    Cliente[Clientes (Usuários Individuais)]
-end
-
-subgraph cluster_Agentes
-    Empresas[Empresas]
-    Bancos[Bancos]
-end
-
-subgraph cluster_Servidor
-    ServidorCentral[Servidor Central]
-end
-
-subgraph cluster_BD
-    BancoDados[Banco de Dados]
-end
-
-subgraph cluster_PaginasWeb
-    PaginasWWW[Construção de Páginas WWW]
-end
-
+[diagrama]
+'''mermaid
 Cliente -->|Ações| Cadastro
 Cliente -->|Ações| Pedidos
 Cliente -->|Ações| Consultas
@@ -39,6 +18,7 @@ Análise Financeira -->|Ações| Execução do Contrato
 
 Cadastro -->|Armazenamento| BancoDados
 Pedidos -->|Armazenamento| BancoDados
+'''
 Contratos -->|Armazenamento| BancoDados
 Clientes -->|Armazenamento| BancoDados
 Empresas -->|Armazenamento| BancoDados
