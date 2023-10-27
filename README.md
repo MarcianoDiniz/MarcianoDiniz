@@ -8,7 +8,8 @@
 MarcianoDiniz/MarcianoDiniz is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-'''flowchart TB
+--- mermaid
+flowchart TB
     subgraph Sistema
         subgraph "Usuários"
             Cliente -->|Cadastrar| Cadastro
@@ -52,6 +53,7 @@ You can click the Preview link to take a look at your changes.
     end
     Banco -->|Concessão de Crédito| Contratos de Crédito
     Banco -->|Concessão de Crédito| Banco de Dados
+    ---
     subgraph "Construção de Páginas WWW"
     end
     subgraph "Internet"
